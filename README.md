@@ -13,3 +13,5 @@ This software implements TextFuseNet: Scene Text Detection with Richer Fused Fea
     year={2020}     
 }
 
+# Acknowledgements
+    The authors would like to thank the developers of PyTorch and Detectron2. Please let me know if you encounter any issues.

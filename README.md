@@ -16,3 +16,4 @@ This software implements TextFuseNet: Scene Text Detection with Richer Fused Fea
   year={2020}
   
 }
+

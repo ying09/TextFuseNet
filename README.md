@@ -4,6 +4,12 @@ This software implements TextFuseNet: Scene Text Detection with Richer Fused Fea
 # Installation
 Our sofeware is based on Detectron2, the installation can refer to https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md.
 
+# Run demo
+
+# Train a new model
+
+# Annotation sample
+
 # Citation
     @inproceedings{ijcai2020-72,  
         title={TextFuseNet: Scene Text Detection with Richer Fused Features},  

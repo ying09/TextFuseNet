@@ -19,15 +19,3 @@ This software implements TextFuseNet: Scene Text Detection with Richer Fused Fea
   year={2020}
   
 }
-@article{ShiBY17,
-  author    = {Baoguang Shi and
-               Xiang Bai and
-               Cong Yao},
-  title     = {An End-to-End Trainable Neural Network for Image-Based Sequence Recognition
-               and Its Application to Scene Text Recognition},
-  journal   = {{IEEE} Trans. Pattern Anal. Mach. Intell.},
-  volume    = {39},
-  number    = {11},
-  pages     = {2298--2304},
-  year      = {2017}
-}

@@ -14,7 +14,6 @@ title={TextFuseNet: Scene Text Detection with Richer Fused Features},
   
   pages={516--522}, 
   
-  year={2020}
-  
+  year={2020}  
 }
 

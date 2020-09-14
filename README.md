@@ -5,8 +5,7 @@ This software implements TextFuseNet: Scene Text Detection with Richer Fused Fea
 
 # Citation
 @inproceedings{ijcai2020-72,  
-  author={Ye, Jian and Chen, Zhe and Liu, Juhua and Du, Bo}, 
-title={TextFuseNet: Scene Text Detection with Richer Fused Features},  
+  title={TextFuseNet: Scene Text Detection with Richer Fused Features},  
   author={Ye, Jian and Chen, Zhe and Liu, Juhua and Du, Bo}, 
   booktitle={Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence, {IJCAI-20}}, 
   

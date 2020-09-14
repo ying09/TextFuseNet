@@ -2,6 +2,7 @@
 This software implements TextFuseNet: Scene Text Detection with Richer Fused Features in pytorch. For details, please refer to our paper https://www.ijcai.org/Proceedings/2020/72.
 
 # Installation
+Our sofeware is based on Detectron2, the installation can refer to https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md.
 
 # Citation
     @inproceedings{ijcai2020-72,  
@@ -14,4 +15,4 @@ This software implements TextFuseNet: Scene Text Detection with Richer Fused Fea
     }
 
 # Acknowledgements
-    The authors would like to thank the developers of PyTorch and Detectron2. Please let me know if you encounter any issues.
+The authors would like to thank the developers of PyTorch and Detectron2. Please let me know if you encounter any issues.

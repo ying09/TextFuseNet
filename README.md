@@ -28,5 +28,5 @@ This implementation is based on Detectron2, the installation can refer to https:
     }
 
 # Acknowledgements
-The authors would like to thank the developers of PyTorch and Detectron2. See [LICENSE](https://github.com/ying09/TextFuseNet/blob/master/LICENSE) for additional details. 
+The authors would like to thank the developers of PyTorch and Detectron2. See [LICENSE](https://github.com/ying09/TextFuseNet/blob/master/LICENSE) for additional details.  
 Please let me know if you encounter any issues.

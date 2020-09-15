@@ -9,7 +9,7 @@ general semantics. TextFuseNet then collects and merges the texts’ features fr
 ![image](https://github.com/ying09/TextFuseNet.pytorch/blob/master/TextFuseNet.jpg)
 
 # Installation
-Our sofeware is based on Detectron2, the installation can refer to https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md.
+This implementation is based on Detectron2, the installation can refer to https://github.com/facebookresearch/detectron2/blob/master/INSTALL.md.
 
 # Run demo
 
@@ -28,4 +28,5 @@ Our sofeware is based on Detectron2, the installation can refer to https://githu
     }
 
 # Acknowledgements
-The authors would like to thank the developers of PyTorch and Detectron2. Please let me know if you encounter any issues.
+The authors would like to thank the developers of PyTorch and Detectron2. See [LICENSE](https://github.com/ying09/TextFuseNet/blob/master/LICENSE) for additional details. 
+Please let me know if you encounter any issues.

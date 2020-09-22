@@ -16,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/demo/icdar2013_detection.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-152">
-              <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="22" />
+              <caret line="38" column="22" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -25,8 +25,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="247">
-                <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+              <first_editor relative-caret-position="570">
+                <caret line="33" column="83" lean-forward="true" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
               </first_editor>
               <second_editor />
             </state>
@@ -96,6 +96,9 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -148,15 +151,15 @@
     <entry file="file://$PROJECT_DIR$/demo/icdar2013_detection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-152">
-          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="22" />
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="247">
-            <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <first_editor relative-caret-position="570">
+            <caret line="33" column="83" lean-forward="true" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
           </first_editor>
           <second_editor />
         </state>

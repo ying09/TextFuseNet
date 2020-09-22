@@ -11,10 +11,18 @@ This implementation is based on Detectron2, the installation can refer to https:
 For more details about the environment of conda, please refer to [requirements.txt](https://github.com/ying09/TextFuseNet/blob/master/requirements.txt).
 
 # Run demo
+A demo program can be found in demo. Before running the demo, download our pretrained models from [Baidu Netdisk](https://pan.baidu.com/s/1wSjZPRh3SL1rpNMtZSHodQ) (Extraction code:8op1). Set the path of files (include model, testing images, configs, output etc.) in demo/***_detection.py.  Then launch demo by:
+    
+    python demo/icdar2013_detection.py
 
 # Train a new model
+Before training，please register your datasets in detectron2/data/datasets/builtin.py. Set training implementation details in configs/ocr/***.yaml.  To train a model with 4 gpus，please run:
+
+    python tools/train_net.py --num-gpus 4 --config-file configs/ocr/icdar2013_101_FPN.yaml
 
 # Annotation sample
+For word-level labels and character-level labels, please see corresponding details of weakly supervised learning method in our paper. 
+For semantic segmentation labels, we generate it according to the masks of text instances in training, and for more details, please see corresponding code in [seg_head.py](https://github.com/ying09/TextFuseNet/blob/master/detectron2/modeling/roi_heads/seg_head.py).
 
 # Citation
     @inproceedings{ijcai2020-72,  

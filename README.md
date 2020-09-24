@@ -11,7 +11,7 @@ This implementation is based on Detectron2, the installation can refer to https:
 For more details about the environment of conda, please refer to [requirements.txt](https://github.com/ying09/TextFuseNet/blob/master/requirements.txt).
 
 # Run demo
-A demo program can be found in demo. Before running the demo, download our pretrained models from [Baidu Netdisk](https://pan.baidu.com/s/1wSjZPRh3SL1rpNMtZSHodQ) (Extraction code:8op1). Set the path of files (include model, testing images, configs, output etc.) in demo/***_detection.py.  Then launch demo by:
+A demo program can be found in demo. Before running the demo, download our pretrained models from [Baidu Netdisk](https://pan.baidu.com/s/1wSjZPRh3SL1rpNMtZSHodQ) (Extraction code:8op1) or [Google Driver](https://drive.google.com/drive/folders/18Ll-3bAmi4CR2eGTuM-j6fkMrSAaBV4Z?usp=sharing). Set the path of files (include model, testing images, configs, output etc.) in demo/***_detection.py.  Then launch demo by:
     
     python demo/icdar2013_detection.py
 

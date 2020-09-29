@@ -21,7 +21,7 @@ Before training，please register your datasets in detectron2/data/datasets/buil
 
 # Annotation sample
 For word-level labels and character-level labels, please see corresponding details of weakly supervised learning method in our paper. 
-For semantic segmentation labels, we generate it according to the masks of text instances in training, and for more details, please see corresponding code in [seg_head.py](https://github.com/ying09/TextFuseNet/blob/master/detectron2/modeling/roi_heads/seg_head.py).
+For semantic segmentation labels, we generate it according to the masks of text instances during training, and for more details, please see corresponding code in [seg_head.py](https://github.com/ying09/TextFuseNet/blob/master/detectron2/modeling/roi_heads/seg_head.py).
 
 # Results
 Example results of TextFuseNet on different datasets.

@@ -51,9 +51,9 @@ def get_parser():
 
     parser.add_argument(
         "--input",
-        default="the path of icdar2015 testing images",
+        default="./test_icdar2015",
         nargs="+",
-        help="A list of space separated input images"
+        help="image or folder of icdar2015 images"
     )
 
     parser.add_argument(

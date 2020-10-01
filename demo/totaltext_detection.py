@@ -51,9 +51,9 @@ def get_parser():
 
     parser.add_argument(
         "--input",
-        default="the path of totaltext testing images",
+        default="./test_totaltext",
         nargs="+",
-        help="A list of space separated input images"
+        help="image or folder of totaltext images"
     )
 
     parser.add_argument(

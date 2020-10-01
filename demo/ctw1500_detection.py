@@ -51,9 +51,9 @@ def get_parser():
 
     parser.add_argument(
         "--input",
-        default=" the path of ctw1500 testing images",
+        default="./test_ctw1500",
         nargs="+",
-        help="A list of space separated input images"
+        help="image or folder of ctw1500 images"
     )
 
     parser.add_argument(

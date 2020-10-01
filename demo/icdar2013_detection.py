@@ -53,7 +53,7 @@ def get_parser():
         "--input",
         default="./input_images",
         nargs="+",
-        help="image or folder of icdar2013 images"
+        help="the folder of icdar2013 test images"
     )
 
     parser.add_argument(

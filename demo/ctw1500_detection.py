@@ -53,7 +53,7 @@ def get_parser():
         "--input",
         default="./input_images",
         nargs="+",
-        help="image or folder of ctw1500 images"
+        help="the folder of ctw1500 test images"
     )
 
     parser.add_argument(

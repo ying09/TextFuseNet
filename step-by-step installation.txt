@@ -1,0 +1,34 @@
+
+Step-by-step installation:
+# create a new conda environment.
+conda create --name textfusenet python=3.7.3
+conda activate textfusenet
+
+# install pytorch 1.3.1.
+conda install pytorch=1.3.1 torchvision cudatoolkit=10.1
+
+# install other libraries for building TextFuseNet-detectron2. You can get detailed versions from the requirements.txt, 
+# and difference between different versions may lead to unknown influence on performance.
+pip install opencv-python
+pip install tensorboard
+pip install yacs
+pip install tqdm
+pip install termcolor
+pip install tabulate
+pip install matplotlib
+pip install cloudpickle
+pip install wheel
+pip install pycocotools
+
+# download our code from gitHub.
+git clone https://github.com/ying09/TextFuseNet.git
+unzip TextFuseNet-master
+cd TextFuseNet-master
+
+# rebuild fvcore, we rebuild it for training more conveniently.
+pip install fvcore-master.zip
+
+# build TextFuseNet-detectron2, which needs cuda-10.1 and gcc-4.9.
+python setup.py build develop
+
+# If you have other problems about installation, please let us know on issue.

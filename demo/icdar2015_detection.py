@@ -51,7 +51,7 @@ def get_parser():
 
     parser.add_argument(
         "--input",
-        default="./test_icdar2015",
+        default="./input_images",
         nargs="+",
         help="image or folder of icdar2015 images"
     )

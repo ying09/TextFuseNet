@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a85be100-89e0-4999-8f02-378dcd87b0f6" name="Default Changelist" comment="" />
+    <list default="true" id="a85be100-89e0-4999-8f02-378dcd87b0f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/ctw1500_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/ctw1500_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/icdar2013_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/icdar2013_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/icdar2015_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/icdar2015_detection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/totaltext_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/totaltext_detection.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/icdar2013_detection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+            <state relative-caret-position="418">
+              <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -22,26 +28,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/totaltext_detection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/ctw1500_detection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+            <state relative-caret-position="304">
+              <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/ctw1500_detection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/icdar2015_detection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="51" column="23" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="23" />
+            <state relative-caret-position="266">
+              <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+              <folding>
+                <element signature="e#71#86#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,6 +60,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>input</find>
+      <find>argparse</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -60,10 +70,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/demo/icdar2015_detection.py" />
         <option value="$PROJECT_DIR$/demo/icdar2013_detection.py" />
         <option value="$PROJECT_DIR$/demo/totaltext_detection.py" />
         <option value="$PROJECT_DIR$/demo/ctw1500_detection.py" />
-        <option value="$PROJECT_DIR$/demo/icdar2015_detection.py" />
       </list>
     </option>
   </component>
@@ -78,17 +88,16 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="755" />
-    <option name="y" value="137" />
-    <option name="width" value="1910" />
-    <option name="height" value="865" />
+    <option name="x" value="97" />
+    <option name="y" value="426" />
+    <option name="width" value="1735" />
+    <option name="height" value="639" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,16 +108,33 @@
             <path>
               <item name="TextFuseNet" type="b2602c69:ProjectViewProjectNode" />
               <item name="TextFuseNet" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test_ctw1500" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TextFuseNet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TextFuseNet" type="462c0819:PsiDirectoryNode" />
+              <item name="test_icdar2013" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TextFuseNet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TextFuseNet" type="462c0819:PsiDirectoryNode" />
+              <item name="test_icdar2015" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TextFuseNet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TextFuseNet" type="462c0819:PsiDirectoryNode" />
+              <item name="test_totaltext" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -174,31 +200,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/icdar2013_detection.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/argparse.pyi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/totaltext_detection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/ctw1500_detection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+        <state relative-caret-position="323">
+          <caret line="17" column="8" selection-start-line="17" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="e#43#202#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/icdar2015_detection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="51" column="23" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="23" />
+        <state relative-caret-position="266">
+          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+          <folding>
+            <element signature="e#71#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/icdar2013_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/totaltext_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/ctw1500_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
         </state>
       </provider>
     </entry>

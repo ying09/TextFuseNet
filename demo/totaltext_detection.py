@@ -51,7 +51,7 @@ def get_parser():
 
     parser.add_argument(
         "--input",
-        default="./input_images",
+        default="./input_images/*.jpg",
         nargs="+",
         help="the folder of totaltext test images"
     )

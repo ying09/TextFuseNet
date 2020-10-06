@@ -39,7 +39,7 @@ Evaluation of TextFuseNet on different datasets with ResNet-101 backbone:
 |ic13|This implementation|92.1|__97.2__|__94.6__|
 |ic15|Paper|89.7|94.7|92.1|
 |ic15|This implementation|__90.6__|94.0|__92.2__|
-|ic19-ArT|This implementation|__72.8__|85.4|__78.6__|
+|ic19-ArT|This implementation|72.8|85.4|78.6|
 
 # Citation
     @inproceedings{ijcai2020-72,  

@@ -19,7 +19,8 @@ Before training，please register your datasets in detectron2/data/datasets/buil
 
     python tools/train_net.py --num-gpus 4 --config-file configs/ocr/icdar2013_101_FPN.yaml
 
-# Annotation sample
+# Annotation example
+The annotation example can be found in [annotation_example](https://github.com/ying09/TextFuseNet/tree/master/annotation_example).
 For word-level labels and character-level labels, please see corresponding details of weakly supervised learning method in our paper. 
 For semantic segmentation labels, we generate it according to the masks of text instances during training, and for more details, please see corresponding code in [seg_head.py](https://github.com/ying09/TextFuseNet/blob/master/detectron2/modeling/roi_heads/seg_head.py).
 

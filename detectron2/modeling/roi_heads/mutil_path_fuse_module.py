@@ -5,7 +5,7 @@ from detectron2.structures import Boxes
 def get_selfarea_and_interarea(boxes1: Boxes, boxes2: Boxes) -> torch.Tensor:
     """
     Given two lists of boxes of size N and M,
-    compute the IoU (intersection over union)
+    compute self_area and inter_area
     between __all__ N x M pairs of boxes.
     The box order must be (xmin, ymin, xmax, ymax).
 

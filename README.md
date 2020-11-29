@@ -9,6 +9,9 @@ Arbitrary shape text detection in natural scenes is an extremely challenging tas
 # Installation
 This implementation is based on [Detectron2](https://github.com/facebookresearch/detectron2), the installation can refer to [step-by-step installation.txt](https://github.com/ying09/TextFuseNet/blob/master/step-by-step%20installation.txt). For more details about the environment of conda, please refer to [requirements.txt](https://github.com/ying09/TextFuseNet/blob/master/requirements.txt).
 
+# Docker
+There is also a Dockerfile for testing purposes available. See [docker](docker).
+
 # Run demo
 A demo program can be found in demo. Before running the demo, download our pretrained models from [Baidu Netdisk](https://pan.baidu.com/s/1wSjZPRh3SL1rpNMtZSHodQ) (Extraction code:8op1) or [Google Driver](https://drive.google.com/drive/folders/18Ll-3bAmi4CR2eGTuM-j6fkMrSAaBV4Z?usp=sharing). Set the path of files (include model, testing images, configs, output etc.) in demo/***_detection.py.  Then launch demo by:
     

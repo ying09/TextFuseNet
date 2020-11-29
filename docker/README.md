@@ -3,7 +3,7 @@
 - docker with Nvidia GPU Support
 - docker-compose
 
-# Config
+## Config
 You can configure the paths and models in the [.env](.env) file.
 I would recommend trying it with the default settings before.
 

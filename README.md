@@ -15,7 +15,7 @@ A demo program can be found in demo. Before running the demo, download our pretr
     python demo/icdar2013_detection.py
 
 # Evaluation
-Our detection code will save text contours to a txt file for each images.For calculating F-measure, Recall, and Precision, please refer to the following links:
+Our detection code will save text contours to a txt file for each images.For calculating F-measure, Recall, and Precision, please refer to the following links:  
 [ICDAR2013](https://rrc.cvc.uab.es/?ch=2)  
 [ICDAR2015](https://rrc.cvc.uab.es/?ch=4)  
 [Total-Text](https://github.com/cs-chan/Total-Text-Dataset)  

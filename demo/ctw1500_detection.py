@@ -37,14 +37,14 @@ def get_parser():
     parser = argparse.ArgumentParser(description="Detectron2 Demo")
     parser.add_argument(
         "--config-file",
-        default="../configs/ocr/ctw1500_101_FPN.yaml",
+        default="./configs/ocr/ctw1500_101_FPN.yaml",
         metavar="FILE",
         help="path to config file",
     )
 
     parser.add_argument(
         "--weights",
-        default="../out_dir_r101/ctw1500_model/model_ctw_r101.pth",
+        default="./out_dir_r101/ctw1500_model/model_ctw_r101.pth",
         metavar="pth",
         help="the model used to inference",
     )

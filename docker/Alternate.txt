@@ -1,3 +1,4 @@
+# this image is based on nvidia/cuda:10.1-cudnn7-devel. only install wget,git,libgl1-mesa-glx and libglib2.0-0
 FROM textfusenetymy/textfusenet:cuda10.1-cudnn7-devel
 
 # install conda

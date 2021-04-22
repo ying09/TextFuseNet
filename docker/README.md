@@ -12,5 +12,5 @@ I would recommend trying it with the default settings before.
 2. Add some image files to the [input_images](../input_images) folder. (JPG format)
 3. Run
 ```docker-compose up --force-recreate``` in this directory.
-   If you runned into the 'GPG error' problem in the 'RUN apt-get update' step of the Dockerfile, you can replace the Dockerfile contents with the commands in [here](Alternate.txt):
+   If you runned into the 'GPG error' problem in the 'RUN apt-get update' step of the Dockerfile, you can replace the Dockerfile contents with the commands in [Alternate.txt](Alternate.txt):
 4. You can find the processed images the [output_images](output_images) directory.

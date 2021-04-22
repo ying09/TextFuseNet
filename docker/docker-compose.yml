@@ -1,0 +1,14 @@
+# Demo docker, not tested for production
+version: "3.8"
+services:
+  textfusenet:
+    environment:
+        DEMO_FILE: ${DEMO_FILE}
+    image: text-fuse-net:1.0.0
+    build:
+      context: .
+    volumes:
+      - "${MODEL_FILE}:/TextFuseNet/model.pth:ro"
+      - "${INPUT_IMAGE_FOLDER}:/TextFuseNet/input_images:ro"
+      - "${OUTPUT_IMAGE_FOLDER}:/TextFuseNet/output_images"
+    runtime: nvidia

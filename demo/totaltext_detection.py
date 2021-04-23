@@ -132,7 +132,7 @@ if __name__ == "__main__":
         
         prediction, vis_output, polygons = detection_demo.run_on_image(img)
 
-        txt_save_path = output_path + 'res_img' + img_name.split('.')[0].split('img')[1] + '.txt'
+        txt_save_path = output_path + 'res_' + img_name.split('.')[0] + '.txt'
         save_result_to_txt(txt_save_path,prediction,polygons)
 
         print("Time: {:.2f} s / img".format(time.time() - start_time))

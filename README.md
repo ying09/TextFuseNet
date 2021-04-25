@@ -16,6 +16,10 @@ There is also a Dockerfile for testing purposes available. See [docker](docker).
 A demo program can be found in demo. Before running the demo, download our pretrained models from [Baidu Netdisk](https://pan.baidu.com/s/1wSjZPRh3SL1rpNMtZSHodQ) (Extraction code:8op1) or [Google Driver](https://drive.google.com/drive/folders/18Ll-3bAmi4CR2eGTuM-j6fkMrSAaBV4Z?usp=sharing). Set the path of files (include model, testing images, configs, output etc.) in demo/***_detection.py.  Then launch demo by:
     
     python demo/icdar2013_detection.py
+    
+the prediction outcome will come as well.
+[more info](https://github.com/ying09/TextFuseNet/issues/57)
+
 
 # Evaluation
 Our detection code will save text contours to a txt file for each image. For calculating F-measure, Recall, and Precision, please refer to the following links:  
@@ -39,6 +43,8 @@ Example results of TextFuseNet on different datasets.
 
 ![image](https://github.com/ying09/TextFuseNet/blob/master/example_results.png)
 
+
+# Evaluation
 Evaluation of TextFuseNet on different datasets with ResNet-101 backbone:
 |Datasets|Model|Recall|Precision|F-measure|
 |:------:|:------:|:------:|:------:|:------:|

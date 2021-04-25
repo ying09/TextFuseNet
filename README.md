@@ -39,13 +39,14 @@ Example results of TextFuseNet on different datasets.
 
 ![image](https://github.com/ying09/TextFuseNet/blob/master/example_results.png)
 
-# To get prediction character
-open 'TextFuseNet/detectron2/utils/visualizer.py' file.
+# To get prediction as text
+open `TextFuseNet/detectron2/utils/visualizer.py` file.
 about line 201, add this code
 `print("labels: ", labels)`
 
 Then, once you run `!python demo/icdar2013_detection.py`, the prediction outcome will come as well.
 [more info](https://github.com/ying09/TextFuseNet/issues/57)
+
 
 
 Evaluation of TextFuseNet on different datasets with ResNet-101 backbone:

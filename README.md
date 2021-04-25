@@ -49,6 +49,7 @@ Then, once you run `!python demo/icdar2013_detection.py`, the prediction outcome
 
 
 
+# Evaluation
 Evaluation of TextFuseNet on different datasets with ResNet-101 backbone:
 |Datasets|Model|Recall|Precision|F-measure|
 |:------:|:------:|:------:|:------:|:------:|

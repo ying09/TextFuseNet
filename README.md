@@ -1,4 +1,4 @@
-# TextFuseNet: Scene Text Detection with Richer Fused Features
+# TextFuseNet: Scene Text Detection with Richer Fused Features [IJCAI 2020]
 This software implements TextFuseNet: Scene Text Detection with Richer Fused Features in PyTorch. For more details, please refer to our paper https://www.ijcai.org/Proceedings/2020/72.
 
 ## Abstract

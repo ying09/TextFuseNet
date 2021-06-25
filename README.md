@@ -42,8 +42,8 @@ Example results of TextFuseNet on different datasets.
 Evaluation of TextFuseNet on different datasets with ResNet-101 backbone:
 |Datasets|Model|Recall|Precision|F-measure|
 |:------:|:------:|:------:|:------:|:------:|
-|toaltext|Paper|85.3|89.0|87.1|
-|toaltext|This implementation|__85.8__|__89.2__|__87.5__|
+|totaltext|Paper|85.3|89.0|87.1|
+|totaltext|This implementation|__85.8__|__89.2__|__87.5__|
 |ctw1500|Paper|85.4|87.8|86.6|
 |ctw1500|This implementation|85.1|__89.7__|__87.4__|
 |icdar2013|Paper|92.3|96.5|94.3|
@@ -55,7 +55,7 @@ Evaluation of TextFuseNet on different datasets with ResNet-101 backbone:
 Evaluation of TextFuseNet on different datasets with ResNet-50 backbone:
 |Datasets|Model|Recall|Precision|F-measure|
 |:------:|:------:|:------:|:------:|:------:|
-|toaltext|Paper|83.2|87.5|85.3|
+|totaltext|Paper|83.2|87.5|85.3|
 |ctw1500|Paper|85.0|85.8|85.4|
 |icdar2013|Paper|89.5|95.1|92.2|
 |icdar2015|Paper|88.9|91.3|90.1|

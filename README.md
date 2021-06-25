@@ -22,7 +22,8 @@ Our detection code will save text contours to a txt file for each image. For cal
 [ICDAR2013](https://rrc.cvc.uab.es/?ch=2)  
 [ICDAR2015](https://rrc.cvc.uab.es/?ch=4)  
 [Total-Text](https://github.com/cs-chan/Total-Text-Dataset)  
-[CTW-1500](https://github.com/Yuliang-Liu/Curve-Text-Detector)
+[CTW-1500](https://github.com/Yuliang-Liu/Curve-Text-Detector)  
+[ICDAR2019-ArT](https://rrc.cvc.uab.es/?ch=14)
 
 # Train a new model
 Before training，please register your datasets in detectron2/data/datasets/builtin.py. Set training implementation details in configs/ocr/***.yaml.  To train a model with 4 gpus，please run:

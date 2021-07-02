@@ -40,18 +40,18 @@ Example results of TextFuseNet on different datasets.
 
 ![image](https://github.com/ying09/TextFuseNet/blob/master/example_results.png)
 
-Evaluation of TextFuseNet on different datasets with ResNet-101 backbone:
+Evaluation of TextFuseNet on different datasets with ResNet-101/ResNeXt-101 backbone:
 |Datasets|Model|Recall|Precision|F-measure|
 |:------:|:------:|:------:|:------:|:------:|
-|totaltext|Paper|85.3|89.0|87.1|
-|totaltext|This implementation|__85.8__|__89.2__|__87.5__|
-|ctw1500|Paper|85.4|87.8|86.6|
-|ctw1500|This implementation|85.1|__89.7__|__87.4__|
-|icdar2013|Paper|92.3|96.5|94.3|
-|icdar2013|This implementation|92.1|__97.2__|__94.6__|
-|icdar2015|Paper|89.7|94.7|92.1|
-|icdar2015|This implementation|__90.6__|94.0|__92.2__|
-|icdar2019-ArT|This implementation|72.8|85.4|78.6|
+|totaltext|Paper (ResNet-101)|85.3|89.0|87.1|
+|totaltext|This implementation (ResNeXt-101)|__85.8__|__89.2__|__87.5__|
+|ctw1500|Paper (ResNet-101)|85.4|87.8|86.6|
+|ctw1500|This implementation (ResNeXt-101)|85.1|__89.7__|__87.4__|
+|icdar2013|Paper (ResNet-101)|92.3|96.5|94.3|
+|icdar2013|This implementation (ResNeXt-101)|92.1|__97.2__|__94.6__|
+|icdar2015|Paper (ResNet-101)|89.7|94.7|92.1|
+|icdar2015|This implementation (ResNeXt-101)|__90.6__|94.0|__92.2__|
+|icdar2019-ArT|This implementation (ResNeXt-101)|72.8|85.4|78.6|
 
 Evaluation of TextFuseNet on different datasets with ResNet-50 backbone:
 |Datasets|Model|Recall|Precision|F-measure|
